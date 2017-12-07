@@ -1,0 +1,13 @@
+.item {
+  background: $white;
+  border: 1px solid $grey;
+  margin-bottom: $s-size;
+  padding: $s-size;
+}
+
+.item__message {
+  font-size: $s-size;
+  font-style: italic;
+  font-weight: $s-weight;
+  text-align: center;
+}

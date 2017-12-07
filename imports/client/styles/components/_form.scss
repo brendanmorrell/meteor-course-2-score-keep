@@ -1,0 +1,9 @@
+.form {
+  display: flex;
+}
+
+.form__input {
+  border: 1px solid $grey;
+  flex-grow: 1; // allows your input to take up whatever space there is leftover in the parent container
+  padding: 0 $s-size;
+}

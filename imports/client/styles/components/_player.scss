@@ -1,0 +1,22 @@
+.player {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.player__name {
+  font-weight: $s-weight;
+  font-size: $sm-size;
+  word-break: break-all;
+}
+
+.player__stats {
+  font-size: $s-size;
+  font-style: italic;
+  font-weight: $s-weight;
+  word-break: break-all;
+}
+
+.player__actions {
+  flex-shrink: 0;// tells flexbox to never shrink the item regardless of how big other items get
+}

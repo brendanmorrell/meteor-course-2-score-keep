@@ -1,0 +1,47 @@
+$grey: #e8e8e8;
+  $dark-grey: #cccccc;
+  $darkest-grey: #555555;
+  $light-grey: #f2f2f2;
+$red: #e35557;
+$white: #ffffff;
+
+$default-font-size: 1.6rem;
+$s-size: 1.3rem;
+  $sm-size: 1.8rem;
+$m-size: 2.4rem;
+$l-size: 4rem;
+
+$s-weight: 300;
+$l-weight: 600;
+
+* {/* poor man's reset. could also download normalize.css or reset */
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;// set so the rem (which is based off the font-size of the document as a whole, thus html tag) is comparable with a moved decimal place for rem (base size ofdefault font-value is 16 pixels usually)
+}
+
+body {
+  background: $light-grey;
+  color: $darkest-grey;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: $default-font-size;
+}
+
+input, button, select {
+  font-size: $s-size;
+}
+
+h1 {
+  font-weight: $s-weight;
+  font-size: $m-size;
+}
+
+@import './components/title-bar';
+@import './components/wrapper';
+@import'./components/item';
+@import'./components/button';
+@import './components/player';
+@import './components/form';

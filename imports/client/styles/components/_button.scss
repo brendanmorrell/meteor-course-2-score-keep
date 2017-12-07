@@ -1,0 +1,28 @@
+.button {
+  border: 1px solid $darkest-grey;
+  border-radius: 0;
+  background: $white;
+  color:$darkest-grey;
+  cursor: pointer;
+  font-weight: $l-weight;
+  line-height: 1;
+  margin-left: $s-size;
+  outline: none;
+  padding: $s-size;
+  transition: background .2s ease, transform .2s ease;
+
+  &:hover, &:focus {
+    background: $grey;
+  }
+
+  &:active {
+    background: $dark-grey;
+    transform: scale(1.1);
+  }
+}
+
+.button--round {
+  border-radius: 50%;
+  height: $l-size;
+  width: $l-size;
+}
