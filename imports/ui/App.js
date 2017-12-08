@@ -21,6 +21,5 @@ export default class App extends React.Component {
 }
 
 App.propTypes = {
-  title: PropTypes.string.isRequired,
   players: PropTypes.array.isRequired,
 };

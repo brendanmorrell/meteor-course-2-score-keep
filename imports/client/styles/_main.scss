@@ -1,8 +1,14 @@
+$blue: #dfe7ed;
+  $blue-alt: darken($blue, 15%);
+$green: #e4ede0;
+  $green-alt: darken($green, 15%);
 $grey: #e8e8e8;
   $dark-grey: #cccccc;
   $darkest-grey: #555555;
   $light-grey: #f2f2f2;
-$red: #e35557;
+$red: #eddfdf;
+  $dark-red: #e35557;
+  $red-alt: darken($red, 15%);
 $white: #ffffff;
 
 $default-font-size: 1.6rem;
